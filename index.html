@@ -3,51 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio showcasing case studies and lead generation.">
-    <meta name="keywords" content="portfolio, case studies, lead generation, SEO">
-    <title>My Portfolio</title>
+    <meta name="description" content="Alexandra Revilla's Portfolio">
+    <meta name="keywords" content="portfolio, game development, web development, Alexandra Revilla">
+    <script type='application/ld+json'>
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Alexandra Revilla",
+        "description": "Game developer and web developer",
+        "sameAs": [
+            "https://www.linkedin.com/in/alexandra-revilla",
+            "https://github.com/apr45"
+        ]
+    }
+    </script>
+    <title>Alexandra Revilla's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Hero Section -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#case-studies">Case Studies</a></li>
-                <li><a href="#lead-generation">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="hero">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Your one-stop solution for web development.</p>
-            <a href="#lead-generation" class="button">Get Started</a>
-        </div>
-    </header>
+    <section id="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Game Development & Web Development</p>
+        <a href="#contact">Get in Touch</a>
+    </section>
 
-    <!-- Case Studies Section -->
-    <section id="case-studies">
-        <h2>Case Studies</h2>
-        <div class="studies">
-            <article>
-                <h3>Project 1</h3>
-                <p>Details about project 1.</p>
-            </article>
-            <article>
-                <h3>Project 2</h3>
-                <p>Details about project 2.</p>
-            </article>
-            <article>
-                <h3>Project 3</h3>
-                <p>Details about project 3.</p>
-            </article>
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am Alexandra Revilla, a passionate game developer...</p>
+        <h3>Skills</h3>
+        <ul>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Unity</li>
+            <li>HTML & CSS</li>
+            <li>Game Design</li>
+        </ul>
+    </section>
+
+    <!-- Game Development Projects Grid -->
+    <section id="projects">
+        <h2>Game Development Projects</h2>
+        <div class="project-grid">
+            <div class="project">Project 1</div>
+            <div class="project">Project 2</div>
+            <div class="project">Project 3</div>
+            <div class="project">Project 4</div>
         </div>
     </section>
 
-    <!-- Lead Generation Form Section -->
-    <section id="lead-generation">
+    <!-- Professional Experience -->
+    <section id="experience">
+        <h2>Professional Experience</h2>
+        <ul>
+            <li>Game Developer at XYZ Company <span>(2024 - Present)</span></li>
+            <li>Web Developer at ABC Corp <span>(2022 - 2024)</span></li>
+        </ul>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
         <h2>Contact Me</h2>
-        <form>
+        <form action="/submit-form" method="post">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
             <label for="email">Email:</label>
@@ -58,9 +76,9 @@
         </form>
     </section>
 
-    <!-- Footer Section -->
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2026 My Portfolio. All Rights Reserved.</p>
+        <p>&copy; 2026 Alexandra Revilla. All rights reserved.</p>
     </footer>
 </body>
 </html>
