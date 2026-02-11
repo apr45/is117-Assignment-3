@@ -1,0 +1,64 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.case-studies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.case-study {
+    flex: 1 1 300px;
+    margin: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.lead-generation-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.lead-generation-form input,
+.lead-generation-form button {
+    margin: 10px;
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #222;
+    color: #fff;
+}
+
+/* Mobile-responsive styles */
+@media (max-width: 600px) {
+    .hero {
+        padding: 10px;
+    }
+    .case-studies {
+        flex-direction: column;
+        align-items: center;
+    }
+    .lead-generation-form {
+        width: 100%;
+    }
+}
+
+/* SEO Optimized Meta Tags */
+/* <meta name="viewport" content="width=device-width, initial-scale=1.0"> */
+/* <meta name="description" content="A professional portfolio showcasing case studies, lead generation, and web design skills."> */
+/* <meta name="keywords" content="portfolio, case studies, web design, lead generation, responsive design"> */
