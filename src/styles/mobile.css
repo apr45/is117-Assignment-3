@@ -1,0 +1,52 @@
+/* Target devices with a width of 768px or less */
+@media (max-width: 768px) {
+  body {
+    padding: 1rem; /* Reduce padding to save screen real estate */
+  }
+
+  /* Hero Section Adjustments */
+  .hero-container h1 {
+    font-size: 2rem; /* Scale down heading for mobile readability */
+  }
+
+  .sub-headline {
+    font-size: 1.1rem; /* Adjust sub-headline size */
+    padding: 0 10px;
+  }
+
+  .visual-placeholder {
+    height: 200px; /* Reduce placeholder height for vertical scrolling */
+  }
+
+  /* Case Study Adjustments */
+  h2 {
+    font-size: 1.5rem; /* Scale section headers */
+  }
+
+  .project-card {
+    padding: 1.25rem; /* Tighten card padding */
+  }
+
+  /* Skills Grid Adjustment */
+  .skills-grid {
+    grid-template-columns: 1fr; /* Stack skill categories vertically */
+    gap: 1rem;
+  }
+
+  /* Contact & CTA Adjustments */
+  .contact-links {
+    flex-direction: column; /* Stack buttons vertically for easier thumb-tapping */
+    width: 100%;
+    max-width: 300px;
+    margin-inline: auto;
+  }
+
+  .btn {
+    text-align: center;
+    width: 100%; /* Ensure buttons are full-width on mobile */
+  }
+
+  footer h3 {
+    font-size: 1.5rem;
+  }
+}
