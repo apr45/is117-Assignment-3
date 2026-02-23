@@ -3,82 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Alexandra Revilla's Portfolio">
-    <meta name="keywords" content="portfolio, game development, web development, Alexandra Revilla">
-    <script type='application/ld+json'>
-    {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Alexandra Revilla",
-        "description": "Game developer and web developer",
-        "sameAs": [
-            "https://www.linkedin.com/in/alexandra-revilla",
-            "https://github.com/apr45"
-        ]
-    }
-    </script>
-    <title>Alexandra Revilla's Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    
+    <title>Alexandra Revilla | NJIT IT Student & Game Developer</title>
+    <meta name="description" content="Portfolio of Alexandra Revilla, an NJIT Information Technology student specializing in Game Systems, Level Design, and UI/UX.">
+    <meta name="keywords" content="NJIT IT Student, New Jersey Game Developer, Unity UI Designer Newark, Technical Artist Portfolio">
+
+    <link rel="stylesheet" href="../src/styles/main.css">
+    <link rel="stylesheet" href="../src/styles/mobile.css">
 </head>
 <body>
-    <!-- Hero Section -->
-    <section id="hero">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Game Development & Web Development</p>
-        <a href="#contact">Get in Touch</a>
-    </section>
 
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am Alexandra Revilla, a passionate game developer...</p>
-        <h3>Skills</h3>
-        <ul>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Unity</li>
-            <li>HTML & CSS</li>
-            <li>Game Design</li>
-        </ul>
-    </section>
-
-    <!-- Game Development Projects Grid -->
-    <section id="projects">
-        <h2>Game Development Projects</h2>
-        <div class="project-grid">
-            <div class="project">Project 1</div>
-            <div class="project">Project 2</div>
-            <div class="project">Project 3</div>
-            <div class="project">Project 4</div>
+    <header id="hero" class="hero-container">
+        <div class="hero-content">
+            <h1>Alexandra Revilla</h1>
+            <p class="tagline">IT Major at NJIT</p>
+            <p class="sub-headline">Building logic in Java and Python; designing worlds in Unity and Procreate. </p>
+            
+            <div class="visual-placeholder">
+                <p>[IT286 Project Visual Loop / Hero Image Placeholder]</p>
+            </div>
         </div>
-    </section>
+    </header>
 
-    <!-- Professional Experience -->
-    <section id="experience">
-        <h2>Professional Experience</h2>
-        <ul>
-            <li>Game Developer at XYZ Company <span>(2024 - Present)</span></li>
-            <li>Web Developer at ABC Corp <span>(2022 - 2024)</span></li>
-        </ul>
-    </section>
+    <main>
+        <section id="projects" class="case-study">
+            <h2>The Lab</h2>
+            <article class="project-card">
+                <h3>Project Alpha: IT286 Tower Defense x FPS Hybrid</h3>
+                <p class="status">Status: Prototype Phase</p>
+                
+                <div id="md-content">
+                    <p>Loading technical documentation...</p>
+                </div>
+            </article>
+        </section>
 
-    <!-- Contact Form -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form action="/submit-form" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
-    </section>
+        <section id="skills">
+            <h2>Technical Toolkit</h2>
+            <div class="skills-grid">
+                <div class="category">
+                    <h4>Development</h4>
+                    <p>Java, Python, C# (Learning)</p>
+                </div>
+                <div class="category">
+                    <h4>Design</h4>
+                    <p>Photoshop, Procreate, Unity (Tilemaps & UI)</p>
+                </div>
+            </div>
+        </section>
+    </main>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2026 Alexandra Revilla. All rights reserved.</p>
+    <footer id="contact">
+        <div class="cta-container">
+            <h3>Collaboration</h3>
+            <p>Building a game at NJIT and need a Level Designer or UI Artist? Let’s connect. </p>
+            
+            <div class="contact-links">
+                <a href="mailto:alexandrap2005@outlook.com" class="btn">Email Alexandra</a>
+                <a href="https://github.com/apr45" target="_blank" class="btn">GitHub Profile</a>
+            </div>
+        </div>
     </footer>
+
+    <script type="module" src="main.js"></script>
 </body>
 </html>
