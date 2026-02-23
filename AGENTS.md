@@ -1,7 +1,7 @@
 # AGENTS.md: Portfolio Strategy & Execution
 
 ## 1. The Mandate
-**Target Career Outcome:** To secure a specialized Game Development or UI/UX internship and establish a reputation at NJIT as a "Technical Artist." The portfolio must bridge the gap between entry-level programming (Java/Python) and digital design (Unity/Procreate), positioning the candidate as a high-value collaborator for student-led startups at VentureLink or advanced IT course projects.
+**Target Career Outcome:** To secure a specialized Game Development or UI/UX internship and establish a reputation at NJIT as a "Technical Developer and Designer. The portfolio must bridge the gap between entry-level programming (Java/Python) and digital design (Unity/Procreate), positioning the candidate as a high-value collaborator for student-led startups or advanced IT course projects.
 
 ## 2. The Tech Stack
 | Tool | Purpose | "Why" |
@@ -13,10 +13,10 @@
 
 ## 3. The Sitemap
 
-### I. The Hero (Visual Identity)
-* **Headline:** Alexandra Revilla | [cite_start]IT @ NJIT[cite: 1, 4].
-* **Sub-headline:** Bridging Java/Python logic with Unity/Procreate aesthetics.
-* [cite_start]**Visual:** High-impact gallery of digital illustrations to immediately validate "Fine Art" skills[cite: 4].
+### I. The Hero (Game Dev Identity)
+* **Headline:** Alexandra Revilla | IT Major at NJIT.
+* **Sub-headline:** Building the logic in Java and Python; designing the world in Unity and Procreate.
+* **Visual:** A high-fidelity "Hero Image" or video loop of the IT286 Tower Defense project, focusing on the first-person perspective switch or level design layouts.
 
 ### II. Case Studies (The "Lab")
 * **Project Alpha:** *IT286 Tower Defense x FPS Hybrid* (Prototype).
@@ -24,8 +24,8 @@
 * **Specific Contributions:** Documentation of the 3-tier difficulty level design, menu systems, and custom icon design created in Photoshop.
 
 ### III. Lead-Gen & Contact
-* [cite_start]**Direct Contact:** Integrated NJIT email link (`alexandrap2005@outlook.com`)[cite: 4].
-* [cite_start]**Social Proof:** Direct link to GitHub repository to showcase clean, entry-level Java and Python code[cite: 4].
+* **Direct Contact:** Integrated NJIT email link (`alexandrap2005@outlook.com`)
+* **Social Proof:** Direct link to GitHub repository to showcase clean, entry-level Java and Python code
 
 ## 4. Non-Negotiables
 
