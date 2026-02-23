@@ -1,6 +1,8 @@
 // 1. Configuration: Path to the project markdown file
-const PROJECT_PATH = '../README.md';
-
+const isGitHubPages = window.location.hostname.includes('github.io');
+const PROJECT_PATH = isGitHubPages 
+    ? '/is117-Assignment-3/it286Project.md' 
+    : '/it286Project.md';
 /**
  * Simple Markdown to HTML Parser
  * Converts basic MD syntax (Headers, Bullets, Bold) into semantic HTML.
