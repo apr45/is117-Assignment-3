@@ -1,5 +1,5 @@
 // 1. Configuration: Path to the project markdown file
-const PROJECT_PATH = '../src/projects/it286Project.md';
+const PROJECT_PATH = 'projects/it286Project.md';
 
 /**
  * Simple Markdown to HTML Parser
