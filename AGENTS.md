@@ -30,5 +30,5 @@
 ## 4. Non-Negotiables
 
 * **Mobile-Responsiveness:** The site must be optimized for mobile viewing, as many student collaborators will access the link via QR codes or phone-based email clients.
-* **SEO Optimization:** Use keywords targeted at the NJ/NY tech corridor, including: *"NJIT IT Student," "New Jersey Game Developer," "Unity UI Designer Newark,"* and *"Technical Artist Portfolio."*
+* **SEO Optimization:** Use keywords targeted at the NJ/NY tech corridor, including: *"NJIT IT Student," "New Jersey Game Developer," "Unity UI Designer Newark,"* and *"Technical Developer and Designer Portfolio."*
 * **Specific Call to Action (CTA):** A persistent "Collaboration" button or footer: *"Building a game at NJIT and need a Level Designer or UI Artist? Let’s connect."*
